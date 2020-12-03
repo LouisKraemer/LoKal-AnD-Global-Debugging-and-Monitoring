@@ -47,7 +47,7 @@ And you should see that in your console
 
 You can now make a POST call from wherever you want to help you debug or host a file for an external source.
 
-## Conntributors
+## Contributors
 
 <table>
   <tr>
