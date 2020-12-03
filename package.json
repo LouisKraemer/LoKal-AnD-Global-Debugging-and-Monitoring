@@ -1,5 +1,5 @@
 {
-  "name": "local-debugger",
+  "name": "lokal-and-global-debugging-and-monitoring",
   "version": "0.0.1",
   "description": "Local server to help debug",
   "main": "index.js",
