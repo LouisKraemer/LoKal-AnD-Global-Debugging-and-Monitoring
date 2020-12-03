@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "git@github.com:Weegle99/local-debugger.git",
   "author": "Louis Kraemer <louiskraemer@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ngrok": "^3.3.0",
+    "nodemon": "^2.0.6"
+  }
 }
