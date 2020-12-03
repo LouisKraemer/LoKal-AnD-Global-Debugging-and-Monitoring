@@ -1,4 +1,4 @@
-# Lokal-and-Global-Debugging-and-Monitoring
+# LoKal-and-Global-Debugging-and-Monitoring
 
 ## What
 
