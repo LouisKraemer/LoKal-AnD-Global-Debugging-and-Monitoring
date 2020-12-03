@@ -1,0 +1,9 @@
+{
+  "name": "local-debugger",
+  "version": "0.0.1",
+  "description": "Local server to help debug",
+  "main": "index.js",
+  "repository": "git@github.com:Weegle99/local-debugger.git",
+  "author": "Louis Kraemer <louiskraemer@gmail.com>",
+  "license": "MIT"
+}
