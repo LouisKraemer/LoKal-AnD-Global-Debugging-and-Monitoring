@@ -26,7 +26,7 @@ yarn
 yarn start
 ```
 
-You'll see your ngrok url logged. 
+You'll see your ngrok url logged.
 For example
 
 ```
@@ -46,6 +46,37 @@ And you should see that in your console
 ```
 
 You can now make a POST call from wherever you want to help you debug or host a file for an external source.
+
+### Usage from JS app (ReactJS/ReactNative...)
+
+1. Create a `logger.ts` file with the following content:
+
+```javascript
+const DEBUGGER_REMOTE_API = 'https://YOUR_GENERATED_ID.ngrok.io'; //Replace with your ngrok endpoint
+
+export const Logger = {
+  debug: (message: string): void => {
+    fetch(DEBUGGER_REMOTE_API, {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ log: message }),
+    });
+  },
+};
+```
+
+1. Call from within your app in place of `console.log`:
+
+```javascript
+import { Logger } from 'logger';
+
+...
+
+Logger.debug(`My debegging statement with a dynamic ${variable}`)
+```
 
 ## Contributors
 
