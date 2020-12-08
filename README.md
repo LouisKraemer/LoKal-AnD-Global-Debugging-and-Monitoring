@@ -68,7 +68,7 @@ export const Logger = {
 };
 ```
 
-1. Call from within your app in place of `console.log`:
+2. Call from within your app in place of `console.log`:
 
 ```javascript
 import { Logger } from 'logger';
