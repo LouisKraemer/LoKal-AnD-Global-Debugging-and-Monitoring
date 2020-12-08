@@ -75,7 +75,7 @@ import { Logger } from 'logger';
 
 ...
 
-Logger.debug(`My debegging statement with a dynamic ${variable}`)
+Logger.debug(`My debugging statement with a dynamic ${variable}`)
 ```
 
 ## Contributors
